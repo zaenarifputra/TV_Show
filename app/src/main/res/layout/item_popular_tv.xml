@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moon_knight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/spacing_regular"
+    android:layout_marginTop="@dimen/spacing_regular"
+    android:layout_marginEnd="@dimen/spacing_regular"
+    android:background="@drawable/bg_bakground_item"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:id="@+id/iv_popular"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/cd_image"
+            android:padding="@dimen/spacing_small"
+            tools:srcCompat="@tools:sample/avatars"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:layout_marginEnd="@dimen/spacing_small"
+            android:fontFamily="@font/montserrat_semibold"
+            tools:text="Moon Knight"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/font_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_popular"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_desc_popular"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_smaller"
+            android:fontFamily="@font/montserrat_regular"
+            android:ellipsize="end"
+            android:maxLines="3"
+            tools:text="Overview"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/font_small"
+            app:layout_constraintEnd_toEndOf="@+id/tv_name"
+            app:layout_constraintStart_toStartOf="@+id/tv_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+        <TextView
+            android:id="@+id/tv_popular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large_med"
+            android:fontFamily="@font/montserrat_semibold"
+            tools:text="4990.135"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/font_small"
+            app:layout_constraintStart_toStartOf="@+id/tv_desc_popular"
+            app:layout_constraintTop_toBottomOf="@+id/tv_desc_popular" />
+
+        <TextView
+            android:id="@+id/tv_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:fontFamily="@font/montserrat_semibold"
+            tools:text="2022-03-30"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/font_small"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_popular"
+            app:layout_constraintStart_toEndOf="@+id/tv_popular"
+            app:layout_constraintTop_toTopOf="@+id/tv_popular" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

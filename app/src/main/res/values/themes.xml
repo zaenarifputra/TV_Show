@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="Theme.InternProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_blue50</item>
+        <item name="colorPrimaryVariant">@color/color_blue60</item>
+        <item name="colorOnPrimary">@color/color_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_yellow50</item>
+        <item name="colorSecondaryVariant">@color/color_yellow60</item>
+        <item name="colorOnSecondary">@color/color_white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--- REVAMP APPS STYLES-->
+    <style name="RevampAppTheme" parent="Theme.InternProject" />
+
+    <!--- REVAMP - TEXT -->
+    <style name="RevampText" parent="android:TextAppearance" />
+
+    <style name="RevampText.MontserratH3">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">@dimen/font_title_content</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:lineSpacingMultiplier">1.25</item>
+    </style>
+
+    <style name="RevampText.MontserratH4">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+
+    <style name="RevampText.MontserratR">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">@dimen/font_regular</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="RevampText.MontserratR.SemiBold">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textSize">@dimen/font_regular</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+
+    <style name="RevampText.MontserratR.SpacingLetter">
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+    <style name="RevampText.MontserratS">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/color_gray3</item>
+    </style>
+
+    <style name="RevampText.MontserratSmaller">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">@dimen/font_smaller</item>
+        <item name="android:textColor">@color/color_gray3</item>
+    </style>
+
+
+
+</resources>

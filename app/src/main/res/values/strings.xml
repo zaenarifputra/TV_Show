@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">TV_Show</string>
+
+    <!-- Content Description -->
+    <string name="cd_btn_back">Button Back</string>
+    <string name="cd_btn_add">Button Add</string>
+    <string name="cd_illust">Illustration</string>
+    <string name="cd_image">Image</string>
+    <string name="cd_logo_kalbe">Logo Kalbe</string>
+    <string name="cd_btn_chat">Chat Button</string>
+    <string name="cd_email">Button Email</string>
+    <string name="cd_icon">Icon</string>
+
+    <!-- Text View Item TV Show-->
+    <string name="text_popularity">Popularity</string>
+    <string name="text_country">Country</string>
+    <string name="text_popular">Popular</string>
+    <string name="text_on_the_air">On The Air</string>
+    <string name="text_airing_today">Airing Today</string>
+    <string name="movie_top_list">Movie Top List</string>
+    <string name="text_recommended">Recommended</string>
+    <string name="text_moon_knight">Moon Knight</string>
+    <string name="text_pop_moon_knight">4990.135</string>
+    <string name="text_tgl_moon_knight">2022–03–30</string>
+    <string name="text_desc_moon_knight">When Steven Grant, a mild-mannered gift-shop employee, becomes plagued with blackouts and memories of another life.</string>
+    <string name="text_halo">Halo</string>
+    <string name="text_desc_halo">Depicting an epic 26th-century conflict between humanity and an alien threat known as the Covenant, the series weaves deeply.</string>
+    <string name="text_pop_halo">5238.03</string>
+    <string name="text_tgl_halo">2022–03–24</string>
+    <string name="text_spy">SPY x FAMILY</string>
+    <string name="text_desc_spy">Master spy Twilight is the best at what he does when it comes to going undercover on dangerous missions in the name of a better world.</string>
+    <string name="text_pop_spy">1185.096</string>
+    <string name="text_tgl_spy">2022–04–09</string>
+    <string name="text_grey">Grey\'s Anatomy</string>
+    <string name="text_desc_grey">Follows the personal and professional lives of a group of doctors at Seattle’s Grey Sloan Memorial Hospital.</string>
+    <string name="text_pop_grey">966.02</string>
+    <string name="text_tgl_grey">2005–03–27</string>
+
+</resources>
